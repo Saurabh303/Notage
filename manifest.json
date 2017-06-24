@@ -1,0 +1,22 @@
+{
+	"name": "Notage",
+	"short_name": "Notage",
+	"description" : "A Webapp/Website consisting of a Notepad named CrazyNotes and an image gallary. So, Notes + Image = Notage."
+	"display": "standalone",
+	"orientation": "landscape",
+	"start_url": "index.html",
+	"theme_color": "#ffffff",
+	"background_color": "#ffffff",
+	"icons": [
+    {
+		"src": "img/icon.png",
+		"sizes": "128x128",
+		"type": "image/png"
+    }
+  ]
+  "related_applications": [
+  {
+    "platform": "web"
+  }
+  ]
+}

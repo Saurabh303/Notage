@@ -1,0 +1,177 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: Helvetica Neue, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to left, #e9ab18 , #f9e6ba );
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    height: auto;
+    min-height: 100vh;
+    background:none;
+  }
+}
+
+.btn-group
+{
+position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 0;
+  text-align: left;
+	float:up;
+}
+
+.btn-group .button {
+    background-color: #995c00;
+    border: 1px solid #4d2e00;
+	border-radius: 0;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 33.3333%;
+    display: block;
+	float: left;
+}
+
+.btn-group .button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group .button:hover {
+    background-color: #4d2e00;
+}
+
+.btn-group .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-group .button span:after {
+  content: '\02c5';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-group .button:hover span {
+  padding-right: 25px;
+}
+
+.btn-group .button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+  .info,
+  .twitter,
+  .facebook,
+  .linkedIn,
+  .email  {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 15px 15px 12px 15px;
+    transition:
+      background-color 300ms ease;
+  }
+
+  @media screen and (max-width: 500px) {
+    .info,
+    .twitter,
+    .facebook,
+	.linkedIn,
+	.email
+	{
+      position: absolute;
+      z-index: 2;
+    }
+  }
+
+  .info {
+    top: 68%;
+   } 
+   
+  .twitter {
+    top: 74%;
+  }
+  
+  .facebook {
+    top: 80%;
+  }
+  
+  .email {
+    top: 86%;
+  }
+  
+  .linkedIn {
+    top: 92%;
+  }
+
+  .info svg,
+  .twitter svg,
+  .facebook svg,
+  .linkedIn svg,
+  .email svg {
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+    transition:
+      fill 300ms ease;
+  }
+
+  @media screen and (max-width: 500px) {
+   .info svg,
+   .twitter svg,
+   .email svg,
+   .linkedIn svg,
+   .facebook svg   {
+    width: 20px;
+    fill: #333;
+   } 
+  }
+
+  .info:hover svg,
+  .twitter:hover svg,
+  .email:hover svg,
+  .linkedIn:hover svg,
+  .facebook:hover svg  {
+    fill: #333;
+  }
+
+.animals{
+	margin-top:60px;
+}
+
+.animals > a .small{
+	width:310px;
+	height:176px;
+	float:left;
+	border-radius: 8px;
+	border: 2px solid #ddd;
+	-webkit-filter: blur(2px);filter: blur(2px);
+}
+.animals > a .small:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 140, 186, 0.5);
+	-webkit-filter: blur(0px);filter: blur(0px);
+	-webkit-transform: rotate(7deg);
+}
