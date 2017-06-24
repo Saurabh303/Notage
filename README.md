@@ -1,6 +1,6 @@
 # Saurabh303.github.io
 
-A simple Webapp/Website consisting of a simple Notepad named CrazyNotes and an image gallary.
+A simple Webapp/Website named "Notage" consisting of a simple Notepad named CrazyNotes and an image gallary.
 
 At first the website opens with homepage using index.html which contains all the necessary links for contact to the producer or any sufficient reason e.g. github, facebook, e-mail, linkedIn etc. And there are links to Home, CrazyNotes and Pictures in form of tabs.
 
