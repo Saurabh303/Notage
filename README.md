@@ -1,4 +1,4 @@
-# Saurabh303.github.io
+# Notage
 
 A simple Webapp/Website named "Notage" consisting of a simple Notepad named CrazyNotes and an image gallary.
 
